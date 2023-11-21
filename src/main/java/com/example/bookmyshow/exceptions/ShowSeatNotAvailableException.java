@@ -1,0 +1,7 @@
+package com.example.bookmyshow.exceptions;
+
+public class ShowSeatNotAvailableException extends Exception {
+    public ShowSeatNotAvailableException(String s) {
+        super(s);
+    }
+}
